@@ -1,6 +1,10 @@
 .info-box{
   display: none;
+  padding: 0;
 }
 .info-box.active{
   display: block;
+}
+.h-10rem{
+  height: 10rem;
 }
