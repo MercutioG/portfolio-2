@@ -1,0 +1,90 @@
+/* Universal Reset */
+/* Reset all elements to their default values */
+html,
+body,
+ul,
+ol,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+blockquote,
+pre,
+hr,
+dl,
+dt,
+dd,
+figure,
+figcaption,
+form,
+fieldset,
+legend,
+button,
+input,
+textarea,
+select {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* Set box-sizing to border-box for all elements */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* Remove list styles */
+ul, ol {
+  list-style: none;
+}
+
+/* Remove anchor text decoration */
+a {
+  text-decoration: none;
+}
+
+/* Set default color and background to transparent */
+body {
+  color: #000;
+  background: transparent;
+}
+
+.w-10 {
+  width: 10%;
+}
+
+.w-35 {
+  width: 35%;
+}
+
+.w-60 {
+  width: 60%;
+}
+
+.h-2rem {
+  height: 2rem;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  filter: invert(100%);
+}
+
+.profile-image {
+  width: 12rem;
+  border-radius: 100%;
+}
+
+.card-container {
+  width: 80%;
+}
+
+.card {
+  width: 30%;
+}/*# sourceMappingURL=main.css.map */

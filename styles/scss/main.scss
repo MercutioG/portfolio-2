@@ -1,0 +1,20 @@
+@import '_universal.scss';
+@import '_bootstrap_extras.scss';
+
+.carousel-control-next,
+.carousel-control-prev /*, .carousel buttons */ {
+    filter: invert(100%);
+}
+
+.profile-image{
+  width: 12rem;
+  border-radius: 100%;
+}
+
+.card-container{
+  width: 80%;
+}
+
+.card{
+  width: 30%;
+}
