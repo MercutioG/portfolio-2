@@ -18,3 +18,18 @@
 .h-2rem{
   height: 2rem;
 }
+
+
+// Color
+.btn-interest{
+  background-color: #8123c4;
+  color: white;
+  &:hover{
+    background-color: #5c158f;
+    color: white;
+  }
+  &:focus, &:active, &.active{
+    background-color: #3d0b60;
+    color: white;
+  }
+}

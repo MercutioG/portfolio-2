@@ -1,6 +1,14 @@
 @import '_universal.scss';
 @import '_bootstrap_extras.scss';
 
+.nav-link {
+  color: rgb(132, 132, 132) !important;
+  text-decoration: none;
+}
+.nav-link.active {
+  color: white !important;
+}
+
 .carousel-control-next,
 .carousel-control-prev /*, .carousel buttons */ {
     filter: invert(100%);
@@ -16,4 +24,42 @@
 }
 .info-box.active{
   display: block;
+}
+
+.carousel-container{
+  width: 100%;
+}
+
+.carousel-subitem{
+  display: flex;
+  justify-content: space-around;
+  padding: {
+    left: 6rem;
+    right: 6rem;
+  };
+}
+
+.card{
+  width: calc(10vw + 12rem);
+  height: 24.5rem;
+}
+.card-body{
+  p{
+    margin-bottom: 0.75rem;
+  }
+}
+
+.control-button{
+  width: fit-content;
+}
+
+@media screen and (max-width: 700px) {
+  .carousel-subitem{
+    flex-direction: column;
+    align-items: center;
+  }
+  .card{
+    width: calc(60% + 10rem);
+    margin: 0.5rem;
+  }
 }
