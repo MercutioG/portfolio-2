@@ -67,6 +67,14 @@ body {
   width: 60%;
 }
 
+.w-70 {
+  width: 70%;
+}
+
+.w-80 {
+  width: 80%;
+}
+
 .h-2rem {
   height: 2rem;
 }
@@ -82,6 +90,11 @@ body {
 .btn-interest:focus, .btn-interest:active, .btn-interest.active {
   background-color: #3d0b60;
   color: white;
+}
+
+ul, ol {
+  list-style: disc;
+  line-height: 2rem;
 }
 
 .nav-link {
@@ -128,6 +141,11 @@ body {
   height: 24.5rem;
 }
 
+.card-img-top {
+  height: 50%;
+  object-fit: cover;
+}
+
 .card-body p {
   margin-bottom: 0.75rem;
 }
@@ -144,5 +162,6 @@ body {
   .card {
     width: calc(60% + 10rem);
     margin: 0.5rem;
+    height: 22rem;
   }
 }/*# sourceMappingURL=main.css.map */

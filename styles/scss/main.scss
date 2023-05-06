@@ -1,6 +1,11 @@
 @import '_universal.scss';
 @import '_bootstrap_extras.scss';
 
+ul, ol {
+  list-style: disc;
+  line-height: 2rem;
+}
+
 .nav-link {
   color: rgb(132, 132, 132) !important;
   text-decoration: none;
@@ -43,6 +48,10 @@
   width: calc(10vw + 12rem);
   height: 24.5rem;
 }
+.card-img-top{
+  height: 50%;
+  object-fit: cover;
+}
 .card-body{
   p{
     margin-bottom: 0.75rem;
@@ -61,5 +70,6 @@
   .card{
     width: calc(60% + 10rem);
     margin: 0.5rem;
+    height: 22rem;
   }
 }
