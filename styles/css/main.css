@@ -164,4 +164,11 @@ ul, ol {
     margin: 0.5rem;
     height: 22rem;
   }
+  .about-box {
+    flex-direction: column;
+  }
+  .profile-image {
+    width: 60%;
+    margin-bottom: 1rem;
+  }
 }/*# sourceMappingURL=main.css.map */
