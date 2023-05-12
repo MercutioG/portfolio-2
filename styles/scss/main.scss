@@ -66,6 +66,17 @@ ul, ol {
   width: fit-content;
 }
 
+@media screen and (max-width: 970px) {
+  .card{
+    height: 28rem;
+  }
+  .card-body{
+    height: auto;
+  }
+  .card-info{
+    height: calc(100% - 3rem);
+  }
+}
 @media screen and (max-width: 820px){
   .progress-container{
     display: flex;
@@ -78,6 +89,26 @@ ul, ol {
     width: 100%;
     padding: 0;
     text-align: center;
+  }
+  .card{
+    height: 30rem;
+  }
+  .card-body{
+    height: auto;
+  }
+  .card-info{
+    height: calc(100% - 3rem);
+  }
+}
+@media screen and (max-width: 780px) {
+  .card{
+    height: 35rem;
+  }
+  .card-body{
+    height: auto;
+  }
+  .card-info{
+    height: calc(100% - 3rem);
   }
 }
 @media screen and (max-width: 700px) {
