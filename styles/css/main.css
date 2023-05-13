@@ -161,6 +161,13 @@ ul, ol {
   width: fit-content;
 }
 
+.custom-hover-link {
+  border-bottom: 2px #7bb0ff solid;
+}
+.custom-hover-link:hover, .custom-hover-link:active {
+  border-bottom: 2px white solid;
+}
+
 @media screen and (max-width: 970px) {
   .card {
     height: 28rem;
